@@ -1,0 +1,84 @@
+/* ! ---------------------------------------- */
+/* !           MOBILE / SMART-PHONE           */
+/* ! ---------------------------------------- */
+
+.content {
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: var(--clr-drk-grey);
+}
+
+.content>* {
+  text-align: center;
+}
+
+.content h1 {
+  margin-top: 20px;
+  color: lightgrey;
+  text-shadow: 1px 1px 1px black,
+    2px 2px 1px orange,
+    4px 4px 2px black;
+}
+
+.content p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0 40px;
+  color: lightgrey;
+}
+
+/* ! ---------------------------------------- */
+/* !                 TABLET                   */
+/* ! ---------------------------------------- */
+@media only screen and (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .content h1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 15px;
+    flex-basis: 25%;
+    align-self: flex-start;
+    justify-self: flex-end;
+    text-align: right;
+  }
+
+  .content p,
+  .work {
+    border-left: 2px solid lightgrey;
+
+    padding-left: 15px;
+    flex-basis: 65%;
+
+    align-self: flex-start;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+}
+
+/* ! ---------------------------------------- */
+/* !                DESKTOP                   */
+/* ! ---------------------------------------- */
+
+
+@media only screen and (min-width: 1025px) {
+
+  .content h1,
+  .content p,
+  .content div {
+    margin-top: 30px;
+  }
+
+  .content p,
+  .work {
+    flex-basis: 60%;
+    margin-right: 100px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+:root {
+  --clr-drk-blue: rgb(61, 90, 128);
+  --clr-med-blue: rgb(152, 193, 217);
+  --clr-lgt-blue: rgb(224, 251, 252);
+  --clr-orange: rgb(238, 108, 77);
+  --clr-drk-grey: rgb(41, 50, 65);
+  --clr-lgt-grey: rgba(41, 50, 65, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
+}
+
+p {
+  font-family: 'Redressed', cursive;
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+header {
+  background-color: var(--clr-drk-grey);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-family: 'Audiowide', cursive;
+}

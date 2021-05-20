@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './App-Content.css';
 
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import MyNavbar from './components/MyNavbar';
+import Navbar from './components/Navbar';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('');
@@ -21,7 +21,9 @@ function App() {
 
   return (
     <div>
-      <MyNavbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <header>
+        <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      </header>
       {renderPage()}
     </div>
   );
