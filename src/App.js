@@ -27,7 +27,7 @@ function App() {
   const jumbotron = (
     <section className="hero-jumbotron">
       <h1>Hi, I'm Kurt ;)</h1>
-      <p>I am a full-stack web developer, pharmacist and data analyst whoe enjoys developing innovative products</p>
+      <p>I am a full-stack web developer, pharmacist and data analyst who enjoys developing innovative products</p>
     </section>
   );
 
