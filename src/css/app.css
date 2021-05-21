@@ -39,17 +39,3 @@ header {
   border-bottom: 2px solid black;
   font-family: "Audiowide", Helvetica, sans-serif;
 }
-
-footer {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--clr-drk-grey);
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  font-family: "Audiowide", Helvetica, sans-serif;
-  color: #ddd;
-}
