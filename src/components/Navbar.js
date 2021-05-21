@@ -18,7 +18,7 @@ function Navbar({ currentPage, setCurrentPage }) {
 
   return (
     <nav className="nav">
-      <a href="#" className="nav__logo">
+      <a href="#" className="nav__logo" onClick={()=>setCurrentPage('')}>
         <img src={logo} alt="" />
         <h1>KP</h1>
       </a>

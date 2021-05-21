@@ -5,7 +5,7 @@ header {
   background-color: var(--clr-drk-grey);
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
 }
 
 .nav {
@@ -22,9 +22,7 @@ header {
 .nav__logo h1 {
   font-size: 3rem;
   margin-left: 10px;
-  text-shadow: 1px 1px 1px black,
-    2px 2px 1px orange,
-    4px 4px 2px black;
+  text-shadow: 1px 1px 1px black, 2px 2px 1px orange, 4px 4px 2px black;
   z-index: 2;
 }
 
@@ -39,15 +37,15 @@ header {
 }
 
 .nav__logo h1::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 2.2ch;
   height: 2px;
   background-color: var(--clr-orange);
   color: var(--clr-orange);
-  transform: translateX(-1.9ch) translateY(1.3ch);
+  transform: translateX(-1.9ch) translateY(0.7ch);
   z-index: -1;
-  opacity: .25;
+  opacity: 0.25;
   transition: opacity ease-in-out 0.25s;
 }
 
@@ -123,7 +121,6 @@ Media Queries
 /* !                 TABLET                   */
 /* ! ---------------------------------------- */
 @media only screen and (min-width: 768px) {
-
   .nav {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -132,7 +129,7 @@ Media Queries
 
   .nav__logo h1::after {
     z-index: -1;
-    opacity: .25;
+    opacity: 0.25;
     transition: opacity ease-in-out 0.25s;
   }
 
@@ -188,14 +185,13 @@ Media Queries
 /* !                DESKTOP                   */
 /* ! ---------------------------------------- */
 
-
 @media only screen and (min-width: 1025px) {
   .nav {
     padding: 0;
     flex-direction: row;
   }
 
-  .nav>* {
+  .nav > * {
     flex-basis: 100%;
   }
 
@@ -225,7 +221,7 @@ Media Queries
     margin-left: 20px;
   }
 
-  .nav__links>* {
+  .nav__links > * {
     flex-basis: 100%;
   }
 
@@ -236,7 +232,7 @@ Media Queries
   }
 
   .nav__links a {
-    font-size: 1.250em;
+    font-size: 1.25em;
     width: 100%;
   }
 }
@@ -250,5 +246,4 @@ Media Queries
     width: 220px;
     font-size: 20px;
   }
-
 }
