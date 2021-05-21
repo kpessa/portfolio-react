@@ -2,9 +2,10 @@ import { useState } from 'react';
 import './App.css';
 import './App-Content.css';
 
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
+import AboutMe from './components/pages/AboutMe';
+import Portfolio from './components/pages/Portfolio';
+import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact'
 import Navbar from './components/Navbar';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     map.set('about-me', <AboutMe />);
     map.set('portfolio', <Portfolio />);
     map.set('resume', <Resume />);
+    map.set('contact', <Contact />);
 
     return map.get(currentPage);
   };
