@@ -23,6 +23,21 @@ body {
   background-color: lightgrey;
 }
 
+html, .body {
+  height:100%;
+}
+body {
+  display: flex;
+  flex-direction:column;
+}
+.body {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+
 h1 {
   font-family: "Audiowide", Helvetica, sans-serif;
 }

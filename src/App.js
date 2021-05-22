@@ -36,9 +36,11 @@ function App() {
       <header>
         <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </header>
-      {!currentPage && jumbotron}
-      {renderPage()}
-      <Footer />
+      <div className="body">
+        {!currentPage && jumbotron}
+        {renderPage()}
+        <Footer />
+      </div>
     </div>
   );
 }
