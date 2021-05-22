@@ -1,9 +1,9 @@
 function AboutMe(props) {
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>a little about me</p>
-    </div>
+    <section className="content">
+      <h1 id="about-me">About Me</h1>
+      <p>My interests are ideas that shape our lives, sports/science, tech/web stuff, medicine, the food I eat, and coaching tennis..</p>
+    </section>
   );
 }
 

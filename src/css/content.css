@@ -2,13 +2,30 @@
 /* !           MOBILE / SMART-PHONE           */
 /* ! ---------------------------------------- */
 
-.content {
-  border-top: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.content::before {
+  background-image: url("/src/images/cover-bg.jpg");
 
-  background-color: var(--clr-drk-grey);
+  background-size: cover;
+
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+
+  opacity: 0.1;
+}
+
+.content {
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  gap: 1rem;
+  /* background-color: var(--clr-l); */
 }
 
 .content>* {
@@ -16,18 +33,20 @@
 }
 
 .content h1 {
-  margin-top: 20px;
-  color: lightgrey;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--clr-drk-grey);
   text-shadow: 1px 1px 1px black,
-    2px 2px 1px orange,
-    4px 4px 2px black;
+    /* 2px 2px 1px orange; */
+    /* 4px 4px 2px black; */
 }
 
 .content p {
+  font-size: 1.5rem;
   margin-top: 10px;
   margin-bottom: 20px;
   padding: 0 40px;
-  color: lightgrey;
+  color: var(--clr-drk-gry);
 }
 
 /* ! ---------------------------------------- */
@@ -35,30 +54,29 @@
 /* ! ---------------------------------------- */
 @media only screen and (min-width: 768px) {
   .content {
-    flex-direction: row;
-    flex-wrap: wrap;
+    
   }
 
   .content h1 {
-    margin-left: 10px;
+    /* margin-left: 10px;
     margin-top: 10px;
     padding-right: 15px;
     flex-basis: 25%;
     align-self: flex-start;
     justify-self: flex-end;
-    text-align: right;
+    text-align: right; */
   }
 
   .content p,
   .work {
-    border-left: 2px solid lightgrey;
+    /* border-left: 2px solid lightgrey;
 
     padding-left: 15px;
     flex-basis: 65%;
 
     align-self: flex-start;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.5rem; */
   }
 }
 
@@ -72,13 +90,13 @@
   .content h1,
   .content p,
   .content div {
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
   .content p,
   .work {
-    flex-basis: 60%;
+    /* flex-basis: 60%;
     margin-right: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
   }
 }

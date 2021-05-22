@@ -2,7 +2,6 @@ import '../css/footer.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { icon } from '@fortawesome/fontawesome-svg-core';
 
 const Footer = () => {
   const iconsArr = [
@@ -24,10 +23,10 @@ const Footer = () => {
     },
   ];
 
-  const icons = iconsArr.map(icon => {
+  const icons = iconsArr.map((icon, i) => {
     return (
-      <a href={icon.url} target="_blank" key={icon.icon}>
-        <FontAwesomeIcon icon={icon.icon} size="2x" />
+      <a href={icon.url} target="_blank" rel="noreferrer" key={`a${i}`}>
+        <FontAwesomeIcon icon={icon.icon} size="2x" key={`icon${i}`} />
       </a>
     );
   });
