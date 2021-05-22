@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.a984d211.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.aabc41a1.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.aabc41a1.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.8bc6290e.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.dd375ded.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.dd375ded.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.6f7f8aa9.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.6f7f8aa9.js.map",
     "static/js/2.d767558e.chunk.js": "/portfolio-react/static/js/2.d767558e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fec3e5cd.chunk.js": "/portfolio-react/static/js/3.fec3e5cd.chunk.js",
     "static/js/3.fec3e5cd.chunk.js.map": "/portfolio-react/static/js/3.fec3e5cd.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "static/css/main.a984d211.chunk.css.map": "/portfolio-react/static/css/main.a984d211.chunk.css.map",
+    "static/css/main.8bc6290e.chunk.css.map": "/portfolio-react/static/css/main.8bc6290e.chunk.css.map",
     "static/js/2.d767558e.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.d767558e.chunk.js.LICENSE.txt",
     "static/media/hero-jumbotron.css": "/portfolio-react/static/media/cover-bg.c336b5ce.jpg",
     "static/media/covid-dashboard.ddd8fb99.png": "/portfolio-react/static/media/covid-dashboard.ddd8fb99.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.6f7f8aa9.js",
     "static/js/2.d767558e.chunk.js",
-    "static/css/main.a984d211.chunk.css",
-    "static/js/main.aabc41a1.chunk.js"
+    "static/css/main.8bc6290e.chunk.css",
+    "static/js/main.dd375ded.chunk.js"
   ]
 }
