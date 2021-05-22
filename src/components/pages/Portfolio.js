@@ -7,7 +7,7 @@ function Portfolio(props) {
   const work = [
     {
       id: '',
-      url: 'https://sports-buzz.herokuapp.com/',
+      url: 'https://github.com/mrhumpherys/social-sports',
       title: 'Sports Buzz! - Social Sports',
       imgSrc: 'https://github.com/mrhumpherys/social-sports/blob/main/public/assets/images/buzz.gif?raw=true',
       alt: 'screencast of Sports Buzz web app',
@@ -15,7 +15,7 @@ function Portfolio(props) {
     },
     {
       id: 'novid',
-      url: 'https://prestongeyer713.github.io/novid/',
+      url: 'https://github.com/Prestongeyer713/novid',
       title: 'Novid - Local Restaurant search for COVID',
       imgSrc: 'https://user-images.githubusercontent.com/75324665/107859719-6862d280-6e09-11eb-8b0a-dbfc54e8da06.gif',
       alt: 'screencast of novid web app',
@@ -44,6 +44,14 @@ function Portfolio(props) {
       imgSrc: imgStockNeuralNetwork,
       alt: 'screenshot of stock neural network web app',
       languages: 'Python | Bootstrap | Machine Learning | Keras/TensorFlow',
+    },
+    {
+      id: '',
+      url: 'https://github.com/kpessa/plotly-js-challenge',
+      title: 'Belly Button Biodiversity Dashboard',
+      imgSrc: 'https://github.com/kpessa/plotly-js-challenge/blob/main/screencast.gif?raw=true',
+      alt: 'screencast demonstrating a dashboard challenge created with belly button biodiversity data',
+      languages: 'Python/Flask | Plotly.js',
     },
   ];
 

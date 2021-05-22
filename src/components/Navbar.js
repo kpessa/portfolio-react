@@ -9,7 +9,14 @@ function Navbar({ currentPage, setCurrentPage }) {
   const links = ['about-me', 'portfolio', 'resume', 'contact'].map((page, i) => {
     return (
       <li key={i}>
-        <a key={`a${i}`} href={`#${page}`} onClick={() => setCurrentPage(page)}>
+        <a
+          key={`a${i}`}
+          href={`#${page}`}
+          onClick={() => {
+            setToggle(false);
+            setCurrentPage(page);
+          }}
+        >
           {page}
         </a>
       </li>
