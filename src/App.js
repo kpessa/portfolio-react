@@ -32,15 +32,15 @@ function App() {
   );
 
   return (
-    <div>
+    <div className="wrapper">
       <header>
         <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </header>
       <div className="body">
         {!currentPage && jumbotron}
         {renderPage()}
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,12 @@
 /* ! ---------------------------------------- */
 /* !           MOBILE / SMART-PHONE           */
 /* ! ---------------------------------------- */
+.portfolio {
+    height:79vh;
+    overflow:auto;
+    padding-bottom:20px;
+}
+
 .workDivs {
   margin-left:1rem;
   margin-right:1rem;
@@ -77,6 +83,11 @@ h1#work {
 /* !                 TABLET                   */
 /* ! ---------------------------------------- */
 @media only screen and (min-width: 768px) {
+  .portfolio {
+    height: 72vh;
+    overflow: auto;
+    padding-bottom: 20px;
+  }
   .workDivs {
     flex-direction: row;
     justify-content: center;

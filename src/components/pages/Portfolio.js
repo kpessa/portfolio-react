@@ -1,9 +1,18 @@
 import '../../css/work.css';
 import imgVancoAuc from '../../images/vanco-auc.png';
 import imgCovidDashboard from '../../images/covid-dashboard.png';
+import imgStockNeuralNetwork from '../../images/neural-network.png';
 
 function Portfolio(props) {
   const work = [
+    {
+      id: '',
+      url: 'https://sports-buzz.herokuapp.com/',
+      title: 'Sports Buzz! - Social Sports',
+      imgSrc: 'https://github.com/mrhumpherys/social-sports/blob/main/public/assets/images/buzz.gif?raw=true',
+      alt: 'screencast of Sports Buzz web app',
+      languages: 'Express | Sequelize | HTML/CSS/JS',
+    },
     {
       id: 'novid',
       url: 'https://prestongeyer713.github.io/novid/',
@@ -28,6 +37,14 @@ function Portfolio(props) {
       alt: 'screenshot of covid dashboard app',
       languages: 'Python | Flask | Plotly | D3.js | Leaflet',
     },
+    {
+      id: '',
+      url: 'https://billionaire-wealth-management.herokuapp.com/',
+      title: 'Stock Neural Network',
+      imgSrc: imgStockNeuralNetwork,
+      alt: 'screenshot of stock neural network web app',
+      languages: 'Python | Bootstrap | Machine Learning | Keras/TensorFlow',
+    },
   ];
 
   const workDivs = work.map((project, i) => {
@@ -41,7 +58,7 @@ function Portfolio(props) {
   });
 
   return (
-    <section>
+    <section className="portfolio">
       <h1 id="work" style={{ textAlign: 'center', marginTop: '1rem' }}>
         Portfolio
       </h1>

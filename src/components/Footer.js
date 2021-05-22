@@ -32,7 +32,7 @@ const Footer = () => {
   });
 
   return (
-    <footer>
+    <footer style={{ marginTop: 'auto' }}>
       <div></div>
       <div>{icons}</div>
       <div>
