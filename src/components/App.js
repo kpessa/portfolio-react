@@ -1,15 +1,15 @@
 import { useState } from 'react';
-import './css/app.css';
-import './css/content.css';
-import './css/hero-jumbotron.css';
-import './css/footer.css';
+import '../css/app.scss';
+import '../css/content.css';
+import '../css/hero-jumbotron.css';
+import '../css/footer.scss';
 
-import AboutMe from './components/pages/AboutMe';
-import Portfolio from './components/pages/Portfolio';
-import Resume from './components/pages/Resume';
-import Contact from './components/pages/Contact';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('');
@@ -40,7 +40,7 @@ function App() {
         {!currentPage && jumbotron}
         {renderPage()}
       </div>
-      <Footer />
+      <Footer currentPage={currentPage} />
     </div>
   );
 }

@@ -1,0 +1,30 @@
+
+@mixin white-font {
+  color: #ddd;
+}
+
+@mixin audiowide {
+  font-family: "Audiowide",
+  Helvetica,
+  sans-serif;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin dark-grey-background {
+  background-color: var(--clr-drk-grey);
+}
+
+@mixin flex-column {
+  flex-direction: column;
+}

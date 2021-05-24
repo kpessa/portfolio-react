@@ -1,38 +1,21 @@
-import '../css/footer.css';
-
+// import '../css/footer.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
+// data
+const { iconsArray } = require('../data/iconsArray');
 
-const Footer = () => {
-  const iconsArr = [
-    {
-      url: 'https://www.facebook.com/kurt.pessa',
-      icon: faFacebookSquare,
-    },
-    {
-      url: 'https://www.instagram.com/kpessa/',
-      icon: faInstagram,
-    },
-    {
-      url: 'https://www.linkedin.com/in/kurtpessa/',
-      icon: faLinkedin,
-    },
-    {
-      url: 'https://github.com/kpessa',
-      icon: faGithub,
-    },
-  ];
-
-  const icons = iconsArr.map((icon, i) => {
+const Footer = ({ currentPage }) => {
+  const icons = iconsArray.map((icon, i) => {
     return (
       <a href={icon.url} target="_blank" rel="noreferrer" key={`a${i}`}>
-        <FontAwesomeIcon icon={icon.icon} size="2x" key={`icon${i}`} />
+        <FontAwesomeIcon className="footer-icon" icon={icon.icon} size="2x" key={`icon${i}`} />
       </a>
     );
   });
 
+  const ternaryOperator = ['about-me', '', 'contact'].includes(currentPage) && 'sticky-footer';
+
   return (
-    <footer style={{ marginTop: 'auto' }}>
+    <footer className={`${ternaryOperator}`}>
       <div></div>
       <div>{icons}</div>
       <div>
