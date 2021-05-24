@@ -1,4 +1,4 @@
-import '../../css/work.css';
+import '../../css/portfolio.scss';
 const { portfolioArray } = require('../../data/portfolioArray');
 
 function Portfolio(props) {

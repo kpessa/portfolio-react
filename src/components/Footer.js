@@ -12,7 +12,7 @@ const Footer = ({ currentPage }) => {
     );
   });
 
-  const ternaryOperator = ['about-me', '', 'contact'].includes(currentPage) && 'sticky-footer';
+  const ternaryOperator = ['about-me', '', 'contact', 'portfolio'].includes(currentPage) && 'sticky-footer';
 
   return (
     <footer className={`${ternaryOperator}`}>
