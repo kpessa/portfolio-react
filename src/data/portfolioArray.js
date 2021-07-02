@@ -5,6 +5,14 @@ import imgStockNeuralNetwork from '../images/neural-network.png';
 export const portfolioArray = [
   {
     id: '',
+    url: 'https://github.com/kpessa/four-in-a-row',
+    title: 'Four in a row!',
+    imgSrc: 'https://github.com/kpessa/four-in-a-row/raw/main/screencast.gif',
+    alt: 'screencast of Four in a row web app',
+    languages: 'HTML/CSS/JS',
+  },
+  {
+    id: '',
     url: 'https://github.com/mrhumpherys/social-sports',
     title: 'Sports Buzz! - Social Sports',
     imgSrc: 'https://github.com/mrhumpherys/social-sports/blob/main/public/assets/images/buzz.gif?raw=true',
