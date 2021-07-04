@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../css/app.scss';
+import '../css/app.module.scss';
 import '../css/content.css';
 import '../css/hero-jumbotron.css';
 import '../css/footer.scss';
@@ -36,10 +36,10 @@ function App() {
       <header>
         <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </header>
-      <div className="body">
+      <main>
         {!currentPage && jumbotron}
         {renderPage()}
-      </div>
+      </main>
       <Footer currentPage={currentPage} />
     </div>
   );

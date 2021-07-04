@@ -17,7 +17,7 @@ function Portfolio(props) {
       <h1 id="work" style={{ textAlign: 'center', marginTop: '1rem' }}>
         Portfolio
       </h1>
-      <div className="workDivs">{workDivs}</div>
+      <div className="masonry-with-columns">{workDivs}</div>
     </section>
   );
 }

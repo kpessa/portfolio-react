@@ -21,6 +21,14 @@ export const portfolioArray = [
   },
   {
     id: '',
+    url: 'https://github.com/kpessa/mysql-challenge',
+    title: 'MySQL Challenge - Employee Database CLI',
+    imgSrc: 'https://github.com/kpessa/mysql-challenge/raw/main/screencast.gif',
+    alt: 'screencast of Employee Database CLI',
+    languages: 'SQL | MySQL | Nodejs',
+  },
+  {
+    id: '',
     url: 'https://github.com/mrhumpherys/social-sports',
     title: 'Sports Buzz! - Social Sports',
     imgSrc: 'https://github.com/mrhumpherys/social-sports/blob/main/public/assets/images/buzz.gif?raw=true',

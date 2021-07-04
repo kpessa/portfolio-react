@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
 
+$phone: 320px;
+$tablet: 768px;
+$desktop: 1024px;
+
 :root {
   --clr-drk-blue: rgb(61, 90, 128);
   --clr-med-blue: rgb(152, 193, 217);
@@ -19,8 +23,21 @@ li {
   list-style-type: none;
 }
 
-body {
+main {
   background-color: lightgrey;
+  height: calc(100vh - 165.5px)
+}
+
+@media(min-width:$tablet) {
+  main {
+    height: calc(100vh - 229px);
+  }
+}
+
+@media(min-width:$desktop) {
+  main { 
+    height: calc(100vh - 152px);
+  }
 }
 
 html, body {

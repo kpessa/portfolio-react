@@ -1,3 +1,5 @@
+import '../../css/about-me.module.scss';
+
 function AboutMe(props) {
   return (
     <section className="content">
