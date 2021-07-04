@@ -5,6 +5,14 @@ import imgStockNeuralNetwork from '../images/neural-network.png';
 export const portfolioArray = [
   {
     id: '',
+    url: 'https://github.com/kpessa/sequelize-challenge',
+    title: 'SQL-Sequelize Challenge!',
+    imgSrc: 'https://github.com/kpessa/sequelize-challenge/raw/main/images/screencast.gif',
+    alt: 'screencast for sequelize challenge',
+    languages: 'SQL/Sequelize/Insomnia',
+  },
+  {
+    id: '',
     url: 'https://github.com/kpessa/four-in-a-row',
     title: 'Four in a row!',
     imgSrc: 'https://github.com/kpessa/four-in-a-row/raw/main/screencast.gif',
@@ -22,7 +30,7 @@ export const portfolioArray = [
   {
     id: 'novid',
     url: 'https://github.com/Prestongeyer713/novid',
-    title: 'Novid - Local Restaurant search for COVID',
+    title: 'Novid - Restaurant search for COVID',
     imgSrc: 'https://user-images.githubusercontent.com/75324665/107859719-6862d280-6e09-11eb-8b0a-dbfc54e8da06.gif',
     alt: 'screencast of novid web app',
     languages: 'JQuery | Leaflet.js | Axios',
