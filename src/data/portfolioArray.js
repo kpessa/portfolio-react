@@ -5,11 +5,27 @@ import imgStockNeuralNetwork from '../images/neural-network.png';
 export const portfolioArray = [
   {
     id: '',
+    url: 'https://github.com/kpessa/work-day-scheduler',
+    title: 'Work Day Scheduler',
+    imgSrc: 'https://github.com/kpessa/work-day-scheduler/raw/main/assets/images/demo.gif',
+    alt: 'screencast for weather dashboard',
+    languages: 'Bootstrap | JQuery | Moment.js | localStorage',
+  },
+  {
+    id: '',
+    url: 'https://github.com/kpessa/weather-dashboard',
+    title: 'Weather Dashboard',
+    imgSrc: 'https://github.com/kpessa/weather-dashboard/raw/main/assets/images/demo.gif',
+    alt: 'screencast for weather dashboard',
+    languages: 'Bootstrap | JQuery | APIs',
+  },
+  {
+    id: '',
     url: 'https://github.com/kpessa/sequelize-challenge',
     title: 'SQL-Sequelize Challenge!',
     imgSrc: 'https://github.com/kpessa/sequelize-challenge/raw/main/images/screencast.gif',
     alt: 'screencast for sequelize challenge',
-    languages: 'SQL/Sequelize/Insomnia',
+    languages: 'SQL | Sequelize | Insomnia',
   },
   {
     id: '',
@@ -17,7 +33,7 @@ export const portfolioArray = [
     title: 'Four in a row!',
     imgSrc: 'https://github.com/kpessa/four-in-a-row/raw/main/screencast.gif',
     alt: 'screencast of Four in a row web app',
-    languages: 'HTML/CSS/JS',
+    languages: 'HTML | CSS | JS',
   },
   {
     id: '',
@@ -74,5 +90,21 @@ export const portfolioArray = [
     imgSrc: 'https://github.com/kpessa/plotly-js-challenge/blob/main/screencast.gif?raw=true',
     alt: 'screencast demonstrating a dashboard challenge created with belly button biodiversity data',
     languages: 'Python/Flask | Plotly.js',
+  },
+  {
+    id: '',
+    url: 'https://github.com/kpessa/code-quiz',
+    title: 'Code Quiz',
+    imgSrc: 'https://github.com/kpessa/code-quiz/raw/main/screencast.gif',
+    alt: 'screencast of code quiz',
+    languages: 'HTML | CSS | Vanilla JS',
+  },
+  {
+    id: '',
+    url: 'https://github.com/kpessa/password-generator',
+    title: 'Password Generator',
+    imgSrc: 'https://github.com/kpessa/password-generator/raw/main/screencast.gif',
+    alt: 'screencast of password generator',
+    languages: 'Boostrap | Vanilla JS ',
   },
 ];
