@@ -6,7 +6,7 @@ export const portfolioArray = [
 	{
 		id: '',
 		url: 'https://github.com/kpessa/learnwithleon-layout-3',
-		title: 'TechCrunch Layout',
+		title: 'BBC Layout',
 		imgSrc: 'https://github.com/kpessa/learnwithleon-layout-3/raw/main/screencast2.gif?raw=true',
 		alt: 'screencast for BBC Layout',
 		languages: 'React | HTML | SCSS | Responsive Design',
@@ -15,8 +15,8 @@ export const portfolioArray = [
 		id: '',
 		url: 'https://github.com/kpessa/learnwithleon-layout-1',
 		title: 'TechCrunch Layout',
-		imgSrc: 'https://github.com/kpessa/learnwithleon-layout-1/raw/main/screencast.gif?raw=true',
-		alt: 'screencast for Khan Academy Layout',
+		imgSrc: 'https://github.com/kpessa/learnwithleon-layout-1/raw/main/screencast-responsive.gif?raw-true',
+		alt: 'screencast for TechCrunch Layout',
 		languages: 'HTML | SCSS | Responsive Design',
 	},
 	{
